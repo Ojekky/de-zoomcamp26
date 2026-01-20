@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Parquet cache files
+*.parquet_cache/
+*.parquet
+*.parquet_metadata
+*.parquet_schema
+*.parquet_cache_manifest.json
+*.parquet_cache_index/
+*.parquet_cache_stats.json
+*.parquet_cache_temp/
+*.parquet_cache_lock/
+*.parquet_cache_lock.json
+*.parquet_cache/lockfile
+# End of https://www.toptal.com/developers/gitignore/api/python
